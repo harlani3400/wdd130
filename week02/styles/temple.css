@@ -12,6 +12,7 @@ main{
 
 }
 header, footer {
+    width: 90%;
     background-color: blue;
     text-align: center;
     color: white;
