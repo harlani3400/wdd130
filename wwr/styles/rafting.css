@@ -1,6 +1,5 @@
 :root {
-    --primary-color: #0000ff;
-    --secondary-color: rgb(55, 196, 243);
+    --primary-color: rgb(55, 196, 243);
     --accent1-color: darkblue;
     --accent2-color: rgb(241, 197, 115);
     --heading-font: "Times New Roman", "Georgia,", serif;
@@ -52,7 +51,7 @@ nav, p, section, article {
     height: auto;
 }
 
-h1 {
+.hero h1 {
     position: absolute;
     top: 20px;
     width: 100%;
@@ -60,13 +59,13 @@ h1 {
     text-align: center;
     opacity: 0.7;
     background-color: var(--accent1-color);
-    color: #0000ff;
+    color: white;
 }
 
-article {
+.hero article {
     position: absolute;
     margin: auto;
-    padding: auto;
+    padding: 0;
     color: var(--accent2-color);
 }
 
